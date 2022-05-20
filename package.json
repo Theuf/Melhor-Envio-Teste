@@ -1,0 +1,28 @@
+{
+  "name": "interface-teste",
+  "version": "1.0.0",
+  "description": "Projeto de teste de interface Melhor Envio",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Theuf/Melhor-Envio-Teste.git"
+  },
+  "author": "Matheus Marcena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Theuf/Melhor-Envio-Teste/issues"
+  },
+  "homepage": "https://github.com/Theuf/Melhor-Envio-Teste#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^6.3.1",
+    "cypress": "^9.6.1",
+    "cypress-xpath": "^1.6.2",
+    "faker": "^5.5.3"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1"
+  }
+}
